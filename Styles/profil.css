@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  width: 100%;
+  height: 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header a i {
+
+  color: #63ffc2;
+  font-size: 33px;
+
+}
+
+.menu {
+  margin-left: 200px;
+  height: 100%;
+
+}
+
+.header a {
+  font-size: 37px;
+  text-decoration: none;
+  color: black;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+
+}
+
+.header ul li {
+  width: 100px;
+  margin: 15px;
+  padding: 8px;
+}
+
+.header ul li a {
+  font-size: 20px;
+  color: grey;
+}
+
+.header ul li a:hover {
+  color: #63ffc2;
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  /* background-color: bisque; */
+  font-family: 'poppins', sans-serif;
+
+}
+
+.leftSection {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: white;
+  height: 60%;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 15px 1px black;
+  
+}
+
+.roundedImage {
+  border-radius: 50%;
+  width: 50%;
+  overflow: hidden;
+  margin: 0px auto;
+  box-shadow: 10px 5px 5px black;
+
+}
+
+
+.premier{
+margin: 10%;
+
+}
+.profilSpeci {
+  margin: 0px auto;
+  color: rgba(0, 0, 0, .5);
+
+
+}
+
+.profilName {
+  margin: 0px auto;
+  margin-top: 5px;
+
+}
+
+.profilInformation {
+  margin: 0px auto;
+  margin-top: 5px;
+  width: 80%;
+
+
+}
+
+.rightSection {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 40px;
+  background-color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 1px 1px 15px 1px black;
+  border-radius: 3px;
+
+
+}
+
+hr {
+  display: block;
+
+  border-width: 1px;
+  width: 100%;
+  margin-top: 15%;
+
+}
+
+.titelInfo {
+  margin-top: 5px;
+}
+
+.dateNaissanceInfo,
+.nomInfo,
+.prenomInfo,
+.adresseInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+
+h2 {
+
+  color: #63ffc2;
+  font-size: 33px;
+}
+
+h3 {
+  margin-right: 40px;
+}
+
+.aboutBtn input {
+  margin-bottom: 10px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+.cardBody {
+  overflow: hidden;
+}
+
+img {
+  float: left;
+}
